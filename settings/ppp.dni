@@ -1,0 +1,83 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1986109551
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[InterruptStripe]
+Title0=TIM2_OVR_UIF
+Setup0=3 1 3 0 1 0 0 8596210905019056153 1591869440
+Title1=TIM1_OVR_UIF
+Setup1=3 1 3 0 1 0 0 -8574468255853314032 1102479896854134789
+[CallStackLog]
+Enabled=1
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=1
+SumEnabled=0
+GraphEnabled=1
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=1
+SumEnabled=0
+GraphEnabled=1
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.cpp}.252.3" 0 0 1 "" 0 ""
+Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.cpp}.108.3" 0 0 1 "" 0 ""
+Count=2
+[Interrupts]
+Enabled=1
+Irq0=_ 0 2000 0 10000 1 0 0 100 0 1 "TIM2_OVR_UIF 0x803C  15  TIM2_IER.UIE  TIM2_SR1.UIF  ITC_SPR4.VECT13SPR"
+Count=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.186.5" 0 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "C:\Users\USeR\Downloads\iar_test\DS1822\DS1822.c" "H:\STM-8\STM8\MOE\iar_test\DS1822\DS1822.c"
+A1=_ "C:\Users\USeR\Downloads\iar_test\main.cpp" "H:\STM-8\STM8\MOE\iar_test\main.cpp"
+Count=2
+SuppressDialog=0
